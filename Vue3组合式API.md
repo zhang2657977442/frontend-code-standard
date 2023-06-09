@@ -1,4 +1,4 @@
-# .vue文件代码编写规范（Vue3组合式API）
+# Vue3组合式API
 
 ```vue
 <script setup lang="ts">
