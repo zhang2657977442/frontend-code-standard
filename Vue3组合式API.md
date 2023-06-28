@@ -46,9 +46,19 @@ const obj: ObjType = reactive({
   pageNum: 1,
   pageSize: 10,
 })
-  
+
 // 定义计算属性
 const count = computed(() => '返回值')
+
+// 定义函数一
+const fun1 = () =>{
+    
+}
+
+// 定义函数二
+const fun2 = () =>{
+    
+}
 
 // 定义watch
 watch(
@@ -63,16 +73,6 @@ watch(
 
 // 定义watchEffect
 watchEffect(() => {})
-
-// 定义函数一
-const fun1 = () =>{
-    
-}
-
-// 定义函数二
-const fun2 = () =>{
-    
-}
 
 // setup生命周期 函数执行
 fun1()
